@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "components-app",
+    "name": "Componentes RN",
     "slug": "components-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.admoises.componentsapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5ab079de-295b-4188-b357-2b0ed60cbbce"
+      }
     }
   }
 }
